@@ -26,7 +26,7 @@ export const AuthContextProvider = ({children}) =>{
     const logout = async () => {
         await axios.post("https://sore-cyan-pig-wrap.cyclic.app/api/auth/logout",{}, { withCredentials: true });
         localStorage.removeItem("user");
-        window.location = "http://localhost:3000/login";
+        window.location = "https://social-mediav22.netlify.app/login";
        
     };
 

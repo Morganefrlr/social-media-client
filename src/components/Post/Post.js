@@ -59,7 +59,7 @@ const Post = ({post}) => {
    }
 
    const handleClick = () => {
-     window.location = `http://localhost:3000/profil/${post.userId}`
+     window.location = `https://social-mediav22.netlify.app/profil/${post.userId}`
    }
 
 
